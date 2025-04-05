@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.harikrish.planit.ui.TaskListScreen
 import com.harikrish.planit.ui.theme.PlanItTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,9 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PlanItTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-                }
+                TaskListScreen()
             }
         }
     }

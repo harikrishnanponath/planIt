@@ -11,3 +11,4 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val Indigo500 = Color(0xFF3F51B5)
+val Indigo300 = Color(0xFF7986CB)
