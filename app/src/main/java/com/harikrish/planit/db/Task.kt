@@ -1,4 +1,4 @@
-package com.harikrish.planit.model
+package com.harikrish.planit.db
 
 data class Task(
     val id: Int,
