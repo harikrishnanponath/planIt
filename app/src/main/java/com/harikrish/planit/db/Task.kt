@@ -1,7 +1,11 @@
 package com.harikrish.planit.db
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "tasks")
 data class Task(
-    val id: Int,
+    @PrimaryKey(autoGenerate = true) val id: Int =0,
     val description: String,
-    var isDone: Boolean = false
+    val isDone: Boolean = false
 )
